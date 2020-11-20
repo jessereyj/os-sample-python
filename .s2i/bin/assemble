@@ -52,7 +52,7 @@ fi
 
 shopt -s dotglob
 echo "---> Installing application source ..."
-mv /tmp/src/*.html "$HOME"
+mv /tmp/src/* "$HOME"
 
 echo "--> Creating info page"
 DATE=`date "+%Y-%m-%d @ %H:%M %p"` 
