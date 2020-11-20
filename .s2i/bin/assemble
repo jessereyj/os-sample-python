@@ -52,7 +52,8 @@ fi
 
 shopt -s dotglob
 echo "---> Installing application source ..."
-mv /tmp/src/* "$HOME"
+mv /tmp/src/*.py ./
+mv /tmp/src/*.txt ./
 
 echo "--> Creating info page"
 DATE=`date "+%Y-%m-%d @ %H:%M %p"` 
