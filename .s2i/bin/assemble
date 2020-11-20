@@ -4,6 +4,8 @@ set -e
 
 shopt -s dotglob
 
+cd /opt/app-root/src
+
 echo "--> Installing application source"
 cp -Rf /tmp/src/* ./
 
