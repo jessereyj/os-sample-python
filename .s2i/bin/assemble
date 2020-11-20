@@ -15,7 +15,7 @@ pip install -r requirements.txt
 pip install Flask-Mail
 
 echo "--> Creating info page"
-export DATE = `date "+%Y-%m-%d @ %H-%M %p"`
+export DATE = 'date "+%Y-%m-%d @ %H-%M %p"'
 echo "Page built on $DATE" >> ./info.html
 echo "Hello WOrld" >> ./info.html
 
